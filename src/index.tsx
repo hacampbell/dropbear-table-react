@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import App from './views/App';
 import NavBar from './components/Nav/NavBar';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './views/Dashboard';
 import CreateRestaurant from './views/CreateRestaurant';
 import Meal from './views/Meal';
@@ -24,7 +24,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <NavBar />
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route index element={<App />}/>
         <Route path="/dashboard" element={<Dashboard />}/>
@@ -32,6 +32,6 @@ root.render(
         <Route path="/meal" element={<Meal />}/>
         <Route path="/viewrestaurant" element={<ViewRestaurant />}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
