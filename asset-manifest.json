@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dropbear-table-react/static/css/main.aa758d6d.css",
-    "main.js": "/dropbear-table-react/static/js/main.7a6dc992.js",
+    "main.js": "/dropbear-table-react/static/js/main.62b05a9d.js",
     "static/media/roboto-latin-500-normal.woff2": "/dropbear-table-react/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/dropbear-table-react/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/dropbear-table-react/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -60,10 +60,10 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/dropbear-table-react/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/dropbear-table-react/index.html",
     "main.aa758d6d.css.map": "/dropbear-table-react/static/css/main.aa758d6d.css.map",
-    "main.7a6dc992.js.map": "/dropbear-table-react/static/js/main.7a6dc992.js.map"
+    "main.62b05a9d.js.map": "/dropbear-table-react/static/js/main.62b05a9d.js.map"
   },
   "entrypoints": [
     "static/css/main.aa758d6d.css",
-    "static/js/main.7a6dc992.js"
+    "static/js/main.62b05a9d.js"
   ]
 }
